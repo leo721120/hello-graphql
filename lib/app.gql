@@ -1,0 +1,7 @@
+type Query {
+    hello: String!
+}
+
+type Mutation {
+    fire(id: Int, name: String): String
+}
